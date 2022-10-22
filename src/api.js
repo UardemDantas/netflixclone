@@ -20,6 +20,12 @@ const categories = [
         isLarge:false,
     },
     {
+        name:'horror',
+        title:'Terror',
+        path:`/discover/movie?api_key=${API_KEY}&with_genres=27`,
+        isLarge:false,
+    },
+    {
         name:'comedy',
         title:'Comedias',
         path:`/discover/tv?api_key=${API_KEY}&with_genres=35`,
@@ -43,6 +49,9 @@ const categories = [
         path:`/discover/tv?api_key=${API_KEY}&with_genres=18`,
         isLarge:false,
     },
+    
+
+    
     
 ];
 

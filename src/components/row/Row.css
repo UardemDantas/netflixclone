@@ -1,36 +1,53 @@
-.row-container{
-    margin-left:20px;
-    color:white;
+.row-container {
+    margin-left: 20px;
+    color: white;
 }
 
-.row-cards{
-    display:flex;
+.row-header{
+    padding-top: 15px;
+}
+
+.row-cards {
+    display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
 }
-.row-cards::-webkit-scrollbar-button{
-    background-color: white;
+
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-.movie-card{
-    object-fit:contain;
+::-webkit-scrollbar-thumb {
+    background: #DB202C;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.movie-card {
+    cursor: pointer;
+    object-fit: contain;
     grid-template-columns: repeat(5, auto);
-    width: 100%;
-    max-height: 175px;
-    margin-bottom: 10px;
-    transition:transform 450ms;
-}
-
-.movie-card-large{
-    object-fit:contain;
+    padding-right: 15px;
+    border-radius: 15px;
     width: 100%;
     max-height: 250px;
     margin-bottom: 10px;
-    transition:transform 450ms;
+    transition: transform 450ms;
 }
-.movie-card:hover{
-   transform:scale(1.08)
-}
- 
 
+.movie-card-large {
+    object-fit: contain;
+    width: 100%;
+    max-height: 350px;
+    margin-bottom: 10px;
+    transition: transform 450ms;
+}
+
+.movie-card:hover {
+    transform: scale(1.08)
+}

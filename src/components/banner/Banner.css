@@ -2,6 +2,7 @@
   color: white;
   object-fit: contain;
   height: 448px;
+  padding-bottom: 10px;
 }
 
 .banner-content {
@@ -20,7 +21,7 @@
   width: 45rem;
   line-height: 1.3;
   padding-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   max-width: 360px;
   height: 80px;
 }

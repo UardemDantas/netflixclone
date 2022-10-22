@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
+
 import movieTrailer from "movie-trailer";
 import { getMovies } from "../../api";
 
